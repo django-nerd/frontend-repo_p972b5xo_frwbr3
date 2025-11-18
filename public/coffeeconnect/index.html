@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoffeeConnect • Creative Marketing Agency</title>
+  <meta name="description" content="CoffeeConnect is a creative agency brewing influencer marketing and social media strategy with bold ideas and measurable impact." />
+  <meta name="theme-color" content="#1F2D4A" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header" id="top">
+    <div class="container nav">
+      <a href="#top" class="brand">
+        <img src="./img/logo.png" alt="CoffeeConnect logo" class="brand__logo"/>
+        <span class="brand__name">CoffeeConnect</span>
+      </a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#team" class="nav__link">Team</a>
+        <a href="#testimonials" class="nav__link">Testimonials</a>
+        <a href="#contact" class="nav__cta">Start a Project</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero__bg" aria-hidden="true">
+      <video class="hero__video" autoplay muted loop playsinline>
+        <source src="https://cdn.coverr.co/videos/coverr-latte-art-2652/1080p.mp4" type="video/mp4" />
+      </video>
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="container hero__content">
+      <h1 class="hero__title">
+        We Brew Ideas<br/>
+        <span class="accent">Into Impact</span>
+      </h1>
+      <p class="hero__subtitle">Influencer campaigns, social storytelling, and brand design—freshly crafted for growth.</p>
+      <div class="hero__actions">
+        <a href="#contact" class="btn btn--primary">Let’s Collaborate</a>
+        <a href="#services" class="btn btn--ghost">Explore Services</a>
+      </div>
+      <ul class="hero__stats">
+        <li><strong>120+</strong><span>Campaigns Shipped</span></li>
+        <li><strong>75M</strong><span>Organic Impressions</span></li>
+        <li><strong>98%</strong><span>Client Retention</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container about__grid">
+      <div class="about__media">
+        <div class="about__image"></div>
+      </div>
+      <div class="about__content">
+        <h2 class="section__title">Who We Are</h2>
+        <p class="section__lead">CoffeeConnect is a creative partner for brands that want results without the corporate aftertaste.</p>
+        <p>We blend strategy, storytelling, and social science to launch campaigns that people actually want to share. From creator matchmaking to content sprints and paid social, we bring clarity and momentum to your marketing.</p>
+        <div class="about__bullets">
+          <div class="bullet">
+            <span class="icon">☕</span>
+            <div>
+              <h3>Idea-First</h3>
+              <p>Every brief begins with a strong creative hook—no filler, just flavor.</p>
+            </div>
+          </div>
+          <div class="bullet">
+            <span class="icon">⚡</span>
+            <div>
+              <h3>Fast & Focused</h3>
+              <p>Sprints over sprawl. We move quickly and measure what matters.</p>
+            </div>
+          </div>
+          <div class="bullet">
+            <span class="icon">📈</span>
+            <div>
+              <h3>Performance-Brewed</h3>
+              <p>Creative built to convert, with clear goals and transparent reporting.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#team" class="link">Meet the Team →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Services</h2>
+        <p class="section__subtitle">Pick your roast. We’ll craft the perfect blend for your brand.</p>
+      </div>
+      <div class="services__grid">
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🎯</div>
+          <h3 class="card__title">Influencer Campaigns</h3>
+          <p class="card__text">Creator discovery, briefs, negotiations, and full-funnel reporting—end to end.</p>
+          <a href="#contact" class="card__link">Start a Campaign</a>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">📱</div>
+          <h3 class="card__title">Social Media Strategy</h3>
+          <p class="card__text">Channel playbooks, content calendars, and series formats designed for engagement.</p>
+          <a href="#contact" class="card__link">Let’s Plan</a>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🎨</div>
+          <h3 class="card__title">Branding & Design</h3>
+          <p class="card__text">From style systems to campaign visuals—consistent, scroll-stopping design.</p>
+          <a href="#contact" class="card__link">Design With Us</a>
+        </article>
+        <article class="card">
+          <div class="card__icon" aria-hidden="true">🚀</div>
+          <h3 class="card__title">Paid Social</h3>
+          <p class="card__text">Creative testing, ad ops, and optimization that turn clicks into customers.</p>
+          <a href="#contact" class="card__link">Scale Performance</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Work Section -->
+  <section id="work" class="section work">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Selected Work</h2>
+        <p class="section__subtitle">A sip of what we’ve shipped for brands we love.</p>
+      </div>
+      <div class="filters" role="tablist" aria-label="Project filters">
+        <button class="filter is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter" data-filter="social" role="tab">Social</button>
+        <button class="filter" data-filter="influencer" role="tab">Influencer</button>
+        <button class="filter" data-filter="branding" role="tab">Branding</button>
+      </div>
+      <div class="grid" id="portfolioGrid">
+        <figure class="grid__item mix social">
+          <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1200&auto=format&fit=crop" alt="Mobile-first social series on a phone screen" />
+          <figcaption>
+            <h3>Swipe Series</h3>
+            <p>Snackable tips for FinTech—grew saves by 220%.</p>
+          </figcaption>
+        </figure>
+        <figure class="grid__item mix influencer">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop" alt="Creators filming content with cameras and lights" />
+          <figcaption>
+            <h3>Creator Collab</h3>
+            <p>12 micro-influencers, 4M views, CPA down 31%.</p>
+          </figcaption>
+        </figure>
+        <figure class="grid__item mix branding">
+          <img src="https://images.unsplash.com/photo-1529335764857-3f1164d1cb24?q=80&w=1200&auto=format&fit=crop" alt="Branding mockups on stationery and devices" />
+          <figcaption>
+            <h3>Brand Refresh</h3>
+            <p>Modern identity system for a DTC beverage brand.</p>
+          </figcaption>
+        </figure>
+        <figure class="grid__item mix social">
+          <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?q=80&w=1200&auto=format&fit=crop" alt="Analytics dashboard showing rising engagement" />
+          <figcaption>
+            <h3>Series Formats</h3>
+            <p>Editorial calendar and UGC prompts for SaaS.</p>
+          </figcaption>
+        </figure>
+        <figure class="grid__item mix influencer">
+          <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=1200&auto=format&fit=crop" alt="Influencer unboxing a product with a camera" />
+          <figcaption>
+            <h3>Unbox Weekend</h3>
+            <p>Launch push with creators across TikTok & IG.</p>
+          </figcaption>
+        </figure>
+        <figure class="grid__item mix branding">
+          <img src="https://images.unsplash.com/photo-1558707538-c56435bdcdf3?ixid=M3w3OTkxMTl8MHwxfHNlYXJjaHwxfHxMb2dvJTIwZ3JpZCUyMGFuZCUyMHR5cG9ncmFwaHl8ZW58MHwwfHx8MTc2MzQ1ODE4M3ww&ixlib=rb-4.1.0&w=1600&auto=format&fit=crop&q=80" alt="Logo grid and typography specimens" />
+          <figcaption>
+            <h3>Commerce Kit</h3>
+            <p>Design toolkit for high-converting promo assets.</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="section__actions">
+        <a href="#contact" class="btn btn--ghost">Start Your Case Study →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="section team">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">Meet the Team</h2>
+        <p class="section__subtitle">Strategists, creators, and data nerds who love a good pour-over.</p>
+      </div>
+      <div class="team__grid">
+        <article class="person">
+          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="Portrait of a Head of Strategy" />
+          <div class="person__info">
+            <h3>Alex Rivers</h3>
+            <span>Head of Strategy</span>
+          </div>
+        </article>
+        <article class="person">
+          <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=800&auto=format&fit=crop" alt="Portrait of a Creative Director" />
+          <div class="person__info">
+            <h3>Jamie Park</h3>
+            <span>Creative Director</span>
+          </div>
+        </article>
+        <article class="person">
+          <img src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=800&auto=format&fit=crop" alt="Portrait of a Senior Designer" />
+          <div class="person__info">
+            <h3>Rowan Lee</h3>
+            <span>Senior Designer</span>
+          </div>
+        </article>
+        <article class="person">
+          <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=800&auto=format&fit=crop" alt="Portrait of a Social Media Manager" />
+          <div class="person__info">
+            <h3>Morgan Quinn</h3>
+            <span>Social Media Manager</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="section testimonials">
+    <div class="container">
+      <div class="section__head">
+        <h2 class="section__title">What Clients Say</h2>
+        <p class="section__subtitle">Good beans, great feedback.</p>
+      </div>
+      <div class="carousel" aria-roledescription="carousel">
+        <button class="carousel__btn prev" aria-label="Previous">‹</button>
+        <div class="carousel__track" id="testimonialTrack">
+          <article class="quote">
+            <p>“CoffeeConnect turned our product into a social movement. We saw lift in every metric.”</p>
+            <span class="quote__author">— Maya, CMO at Bloom</span>
+          </article>
+          <article class="quote">
+            <p>“Smart creators, strong strategy, and the cleanest reporting we’ve had.”</p>
+            <span class="quote__author">— Dan, Growth Lead at Hilo</span>
+          </article>
+          <article class="quote">
+            <p>“The team ships fast without sacrificing quality. They just get it.”</p>
+            <span class="quote__author">— Priya, Founder at SageCo</span>
+          </article>
+        </div>
+        <button class="carousel__btn next" aria-label="Next">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="contact" class="section cta">
+    <div class="container cta__inner">
+      <div>
+        <h2 class="section__title">Ready to fuel your brand?</h2>
+        <p class="section__subtitle">Tell us your goals and we’ll brew a plan you’ll love.</p>
+      </div>
+      <a href="mailto:hello@coffeeconnect.agency" class="btn btn--primary">Let’s Start a Project</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="./img/logo-mark.svg" alt="CoffeeConnect mark" class="footer__logo" />
+        <p>Brewing creative that performs. Based on the Pitoon vibe, crafted for CoffeeConnect.</p>
+      </div>
+      <nav class="footer__nav">
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__meta">
+        <span>© <span id="year"></span> CoffeeConnect</span>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Twitter">X</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
